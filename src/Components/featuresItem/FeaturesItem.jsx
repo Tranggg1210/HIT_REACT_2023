@@ -1,4 +1,4 @@
-import '../FeaturesList/FeaturesItem.css'
+import '../featuresItem/FeaturesItem.scss'
 const FeaturesItem = (props) => {
     return (
         <div className="features-item">
@@ -14,7 +14,7 @@ const FeaturesItem = (props) => {
                     </p>
                     <div>
                         <span>Learn more</span>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        <i className="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
             </div>

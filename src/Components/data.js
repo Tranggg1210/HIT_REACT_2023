@@ -29,7 +29,7 @@ export const FeaturesData = [
         content: "Print out service gives you convenience if someday you need print data, just edit it all and just print it."
     },
     {
-        id: 3,
+        id: 4,
         title: 'Security Code',
         image: img4,
         background: bg4,
