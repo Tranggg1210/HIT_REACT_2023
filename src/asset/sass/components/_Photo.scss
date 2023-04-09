@@ -1,0 +1,14 @@
+@import './mixins';
+@import './value';
+
+@include mobilephone {
+    .listPhoto{
+        grid-template-columns: 1fr;
+    }
+}
+
+@include tablet {
+    .listPhoto{
+        grid-template-columns: 1fr 1fr;
+    }
+}
