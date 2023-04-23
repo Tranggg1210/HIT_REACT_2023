@@ -1,0 +1,53 @@
+.login{
+    background-color:cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.login__elements{
+    padding: 28px 48px;
+    background-color: #fff;
+    border-radius: 12px;
+    height: max-content;
+    width: 400px;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    color:cornflowerblue;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+.login__elements--group{
+    margin: 24px 0;
+    font-size: 14px;
+    label{
+        margin-bottom: 16px;
+    }
+    .field--style{
+        padding: 8px 0px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+    }
+    button{
+        margin: 36px 0 0;
+        background-color: cornflowerblue;
+        color:#fff;
+        padding: 8px;
+        width: 100%;
+        border-radius: 12px;
+    }
+    
+    
+}
+button:hover{
+    opacity: 0.8;
+}
+.userErrors{
+    color:red;
+    font-size: 14px;
+    margin: 4px 0;
+}

@@ -1,11 +1,13 @@
 import React from "react";
-import Photos from "./components/Photos";
+import Login from "./components/Form/Login";
+
+
 
 
 const App = () => {
   return (
     <div className="app">
-        <Photos/>
+        <Login/>
     </div>
   )
 }

@@ -27,6 +27,7 @@ const Photos = () => {
 
     useEffect(() => {
         handleLoadingPhotos();
+        console.log(1);
     },[]);
 
     return (
