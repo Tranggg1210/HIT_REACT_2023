@@ -23,19 +23,13 @@ const Login = () => {
                 }
                 onSubmit={
                     async (values) => {
-                        console.log(values);
                         try {
                             console.log(values);
                             const result = await axios.post('https://reqres.in/api/login', values)
-                            console(result)
-                            try {
-                                alert('Successfully')
-
-                            } catch (error) {
-                                console.log(error);
-                            }
+                            alert('Successfully')
                         } catch (error) {
                             console.log(error);
+                            alert('Login fail')
                         }
 
                     }
@@ -54,7 +48,7 @@ const Login = () => {
                                 <h1>LOGIN</h1>
                                 <div className="login__elements--group email">
                                     <label htmlFor="Email">Email</label> <br />
-                                    <Field type="text"
+                                    <Field type="email"
                                         size={36}
                                         name='Email'
                                         className='field--style'
@@ -67,7 +61,7 @@ const Login = () => {
                                 </div>
                                 <div className="login__elements--group password">
                                     <label htmlFor="Password">Password</label> <br />
-                                    <Field type="text"
+                                    <Field type="password"
                                         size={36}
                                         name='Password'
                                         placeholder='Nhập password của bạn...'
