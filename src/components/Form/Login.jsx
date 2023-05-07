@@ -25,7 +25,7 @@ const Login = () => {
                     async (values) => {
                         try {
                             console.log(values);
-                            const result = await axios.post('https://reqres.in/api/login', values)
+                            const result = await axios.post('https://test-react.agiletech.vn/api?fbclid=IwAR1GZrGJnOntnR00EKNhJOviA0kpWvPJq8AoNa8w-7cFI9sj58olOt282N4#/Auth/login', values)
                             alert('Successfully')
                         } catch (error) {
                             console.log(error);
