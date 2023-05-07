@@ -1,0 +1,51 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import '/src/asset/sass/mixins';
+.features{
+    @include mobie{
+        margin-top: 80%;
+    }
+}
+.features-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    font-family: Helvetica, sans-serif,Arial;
+    margin-bottom: 49.24px;
+}
+
+.features-describle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B5D68;
+    @include mobie{
+        max-width: 60%;
+        margin-left: 20%;
+
+    }
+}
+
+.features-top p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+}
+
+.features-bottom{
+    display: flex;
+    justify-content: center;
+    padding-left: 14%;
+}
+.features-container{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    @include mobie{
+        width: 480px;
+        justify-content: center;
+    }
+    @include tablet{
+        justify-content: center;
+        width: 900px;
+     }
+}

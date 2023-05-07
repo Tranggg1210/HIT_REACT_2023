@@ -1,4 +1,6 @@
-@mixin mobilephone
+@import '_value.scss';
+
+@mixin mobie
 {
     @media screen and (max-width: $widthMobile){
         @content;
