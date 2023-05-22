@@ -1,24 +1,7 @@
 import imgHeader from '../../asset/img/header1.png';
-import { useNavigate } from 'react-router-dom';
 const Header = () => {
-    const navigate = useNavigate();
-    const handleClick = () => {navigate('/HIT_REACT_2023/signin')}
     return (
         <div className="header container">
-            <div className="header--top">
-                <div style={{display: "flex"}}>
-                    <div className="header--top__item1"></div>
-                    <div className="header--top__item2"></div>
-                </div>
-                <div>
-                    <button className='btn' 
-                            style={{marginRight: 200}}
-                            onClick={handleClick}
-                    >
-                        Sign in
-                    </button>
-                </div>
-            </div>
             <div className="header--bottom">
                 <div className="header--bottom__item1">
                     <h1>

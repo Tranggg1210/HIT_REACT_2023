@@ -1,0 +1,26 @@
+.nav,.header--top{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 1200px;
+    &-item1, &__item1{
+        width: 20px;
+        height: 20px;
+        margin: calc(62px - 48px) 8px 0 0;
+        border-radius: 50%;
+        background-color: #9C69E2;
+        display: inline-block;
+    }
+    &-item2, &__item2{
+        width: 19px;
+        height: 34px;
+        border-radius: 20px;
+        background: #F063B8;
+    }
+    @include mobie {
+        justify-content: center;
+        margin-right: 16% !important;
+    }
+}
